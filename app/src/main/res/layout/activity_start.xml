@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/foreground"
+        android:foreground="@drawable/foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/b1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:text="Dyno's Restaurant"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/foreground"
+        app:layout_constraintEnd_toEndOf="@+id/foreground"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foreground"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/Motto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore The Taste of Divinity"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Motto"
+        app:layout_constraintVertical_bias=".7"
+        app:layout_constraintWidth_percent=".8"
+        android:background="@drawable/btn_bg_design"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/SignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Reg"
+        app:layout_constraintVertical_bias="0.27" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

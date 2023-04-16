@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/lobster</item>
+        <item>@font/lobster_two_bold_italic</item>
+        <item>@font/roboto_mono_bold</item>
+        <item>@font/roboto_mono_bold_italic</item>
+    </array>
+</resources>

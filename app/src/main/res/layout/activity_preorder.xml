@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apple 20 shit"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banana 25 shit"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orange 15 shit"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/show_cart"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
